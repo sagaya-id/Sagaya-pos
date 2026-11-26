@@ -1,0 +1,16 @@
+{
+  "name": "batagor-sagaya-pos-local",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "batagor-local",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}
